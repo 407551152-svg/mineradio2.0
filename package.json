@@ -2,8 +2,8 @@
   "name": "mineradio",
   "productName": "Mineradio",
   "version": "1.1.1",
-  "description": "沉浸式音乐播放器，融合天气电台、歌词舞台、粒子视觉和 3D 歌单架。",
-  "author": "Mineradio",
+  "description": "沉浸式 Windows 音乐播放器，融合歌词舞台、粒子视觉、3D 歌单架、桌面歌词和音乐搜索播放体验。",
+  "author": "407551152-svg",
   "main": "desktop/main.js",
   "private": true,
   "scripts": {
@@ -12,7 +12,7 @@
     "build:win:dir": "electron-builder --win dir"
   },
   "build": {
-    "appId": "com.mineradio.desktop",
+    "appId": "com.jerry.mineradio",
     "productName": "Mineradio",
     "directories": {
       "output": "dist",
@@ -64,16 +64,16 @@
     "publish": [
       {
         "provider": "github",
-        "owner": "XxHuberrr",
-        "repo": "Mineradio"
+        "owner": "407551152-svg",
+        "repo": "mineradio2.0"
       }
     ]
   },
   "mineradio": {
     "update": {
       "provider": "github",
-      "owner": "XxHuberrr",
-      "repo": "Mineradio",
+      "owner": "407551152-svg",
+      "repo": "mineradio2.0",
       "preview": true,
       "preferMirrors": true,
       "mirrors": [
